@@ -1,5 +1,17 @@
 #!/bin/bash
+
+#Repoları güncelle
 sudo apt-get update
 sudo apt-get install
-sudo apt-get install git python3 etherwake -y
-python3 -m pip install discord.py yeelight yt-dlp -y
+
+#Gerekli yazılımları yükle
+sudo apt-get -y install git python3 python3-pip etherwake
+
+#Github repoyu klonla
+sudo git clone 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@github.com:Teknoist/discordbot.git
+
+#Gereklilikleri yükle
+python3 -m pip install -r ./discordbot/requirements.txt
+
+sudo rm ./discordbot/requirements.txt
+sudo rm ./discordbot/install.sh
