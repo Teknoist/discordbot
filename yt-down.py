@@ -10,7 +10,7 @@ def my_hook(d):
     
 ydl_opts = {
     'format': '18',
-    'outtmpl': '/media/usb0/%(playlist)s/%(title)s.%(ext)s',
+    'outtmpl': '/media/pi/61ED-724C/%(playlist)s/%(title)s.%(ext)s',
     'progress_hooks': [my_hook],
 }
 
