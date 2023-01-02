@@ -31,7 +31,7 @@ async def on(ctx):
 @bot.command()
 async def ytl(ctx, arg1):
 	await ctx.send("İndirme Başlatıldı")
-	command = 'python3 yt-down.py ' + arg1
+	command = 'python3 /home/pi/discordbot/yt-down.py ' + arg1
 	os.system(command)
 
 #Anahtar
