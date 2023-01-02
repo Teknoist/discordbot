@@ -1,0 +1,5 @@
+discord.py
+requests
+colorama
+yt-dlp
+yeelight
