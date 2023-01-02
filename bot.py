@@ -38,4 +38,4 @@ async def ytl(ctx, arg1):
 @bot.event
 async def on_ready():
     await bot.get_channel(1006637872331370506).send("İndirme Modülü Aktif")
-bot.run("MTA0MDg3Njk5MDU0NDIzNjYzNQ.G-_NTZ.dTKGzadQDs-XSyHXXmlHDZVaRI-NWIUyob6pOY")
+bot.run("")
